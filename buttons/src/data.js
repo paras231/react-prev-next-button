@@ -21,12 +21,22 @@ export const userdata = [
     },
     {
         id: 5,
-        name: 'Joe Doe',
+        name: 'Yatharth Doe',
         age: 28,
     },
     {
-        id: 6,
-        name: 'Jenny Doe',
+        id: 7,
+        name: 'Raja Doe',
         age: 29,
-    }
+    },
+    {
+        id: 8,
+        name: 'Shaym Doe',
+        age: 29,
+    },
+    {
+        id: 9,
+        name: 'Paras Doe',
+        age: 29,
+    },
 ]

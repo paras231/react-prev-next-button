@@ -4,7 +4,7 @@ import { userdata } from "./data";
 const Page = () => {
   const [currentPage, setCurrentPage] = useState(1);
 
-  const [usersPerPage] = useState(1);
+  const [usersPerPage] = useState(3);
   const indexOfLastUser = currentPage * usersPerPage;
   const indexOfFirstUser = indexOfLastUser - usersPerPage;
   const currentUsers = userdata.slice(indexOfFirstUser, indexOfLastUser);
@@ -25,7 +25,7 @@ const Page = () => {
     <>
       {currentUsers.map((user, index) => {
         return (
-          <div key={index}>
+          <div  key={index}>
             <h1>{user.name}</h1>
             <p>{user.age}</p>
           </div>
